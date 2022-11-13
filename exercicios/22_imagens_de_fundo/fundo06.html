@@ -8,10 +8,17 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('images/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
+            background-attachment: fixed; */
+
+            /** Shorthand - background
+                color > image > position > repeat > [size] > attchment
+            */
+            /* background-size não está funcionando na shorthand */
+            background: black url('images/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
